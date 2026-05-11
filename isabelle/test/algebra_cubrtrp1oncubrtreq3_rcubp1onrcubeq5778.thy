@@ -9,7 +9,7 @@ begin
 
 theorem algebra_cubrtrp1oncubrtreq3_rcubp1onrcubeq5778:
   fixes r :: real
-  assumes "0 \<le> r"
+  assumes "0 < r"
       and "r powr (1 / 3) + 1 / r powr (1 / 3) = 3"
   shows "r^3 + 1 / r^3 = 5778"
   sorry
