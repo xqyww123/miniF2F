@@ -12,7 +12,7 @@ theorem mathd_numbertheory_582:
   fixes n :: nat
   assumes "0 < n"
     and "3 dvd n"
-  shows "((n + 4) + (n + 6) + (n + 8)) mod 9 = 0"
+  shows "9 dvd ((n + 4) + (n + 6) + (n + 8))"
   using assms by auto
 
 end 

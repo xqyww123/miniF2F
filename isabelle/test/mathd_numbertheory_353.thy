@@ -10,7 +10,7 @@ begin
 theorem mathd_numbertheory_353:
   fixes s :: nat
   assumes "s = (\<Sum> k\<in> {2010..<4019}. k)" 
-  shows "s mod 2009 = 0"
+  shows "2009 dvd s"
   unfolding assms by eval
 
 end
