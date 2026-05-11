@@ -7,7 +7,7 @@ theory algebra_others_exirrpowirrrat
 begin
 
 theorem algebra_others_exirrpowirrrat:
-  "\<exists> a b.  a \<notin> \<rat> \<and> b \<notin> \<rat> \<and> a^b \<in> \<rat>"
+  "\<exists> (a::real) (b::real).  a \<notin> \<rat> \<and> b \<notin> \<rat> \<and> a powr b \<in> \<rat>"
   sorry
 
 end

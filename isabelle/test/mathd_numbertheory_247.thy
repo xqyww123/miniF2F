@@ -8,9 +8,9 @@ begin
 
 theorem mathd_numbertheory_247:
   fixes n ::nat
-  assumes "(3 * n) mod 2 = 11" 
+  assumes "(3 * n) mod 11 = 2"
   shows "n mod 11 = 8"
-  using assms by auto
+  sorry
 
 end
     

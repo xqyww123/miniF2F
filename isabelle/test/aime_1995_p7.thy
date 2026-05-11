@@ -7,7 +7,10 @@ begin
 
 theorem aime_1995_p7:
   fixes k m n :: nat and t :: real
-  assumes h0: "gcd m n = 1"
+  assumes positive_k: "0 < k"
+      and positive_m: "0 < m"
+      and positive_n: "0 < n"
+      and h0: "gcd m n = 1"
       and h1: "(1 + sin t) * (1 + cos t) = 5/4"
       and h2: "(1 - sin t) * (1- cos t) = m/n - sqrt k"
     shows "k + m + n = 27"
