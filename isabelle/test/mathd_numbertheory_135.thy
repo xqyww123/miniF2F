@@ -19,7 +19,7 @@ theorem mathd_numbertheory_135:
      and "a\<in>{0..9}" "b\<in>{0..9}" "c\<in>{0..9}" 
      and "odd a \<and> odd c"
      and "\<not> 3 dvd b"
-     and "digits n = [b,a,b,c,d,a,c,b,a]" 
+     and "digits n = [b,a,b,c,c,a,c,b,a]"
    shows "10*(10 * a + b) + c = 129"
    sorry
 

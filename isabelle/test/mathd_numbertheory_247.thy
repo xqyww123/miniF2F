@@ -13,4 +13,3 @@ theorem mathd_numbertheory_247:
   sorry
 
 end
-    

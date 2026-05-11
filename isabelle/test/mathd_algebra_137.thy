@@ -9,7 +9,7 @@ begin
 
 theorem mathd_algebra_137:
   fixes x::nat
-  assumes " x + 4 / 100 * x = 598" 
+  assumes " x + 4 / 100 * x = 598"
   shows "x = 575"
   using assms by auto
 

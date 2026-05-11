@@ -13,7 +13,7 @@ theorem imo_1965_p2:
   assumes "0 < a 0 \<and> 0 < a 4 \<and> 0 < a 8"
     and "a 1 < 0 \<and> a 2 < 0"
     and "a 3 < 0 \<and> a 5 < 0"
-    and "a 7 < 0 \<and> a 9 < 0"
+    and "a 6 < 0 \<and> a 7 < 0"
     and "0 < a 0 + a 1 + a 2"
     and "0 < a 3 + a 4 + a 5"
     and "0 < a 6 + a 7 + a 8"
