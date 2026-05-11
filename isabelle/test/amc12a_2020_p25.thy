@@ -11,7 +11,7 @@ theorem amc12a_2020_p25:
   assumes 
         h1: "(\<Sum> k\<in>{x::real. (floor x) * (x - (floor x)) 
             = a * x^2}. k) = 420" 
-    and h2: "(a1,a2) = quotient_of a"
+    and h2: "quotient_of a = (a1,a2)"
   shows "a1 + a2 = 929"
   sorry
 

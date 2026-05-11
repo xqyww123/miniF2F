@@ -13,7 +13,8 @@ theorem mathd_algebra_459:
     and "4 * b = a + c + d"
     and "2 * c = a + b + d"
     and "8 * a + 10 * b + 6 * c = 24"
-  shows "fst (quotient_of d) + snd (quotient_of d) = 28"
+    and "quotient_of d = (p, q)"
+  shows "p + q = 28"
   sorry
 
 end
