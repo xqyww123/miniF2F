@@ -10,7 +10,9 @@ begin
 theorem mathd_algebra_288:
   fixes x y :: real
     and n :: real
-  assumes "x < 0 \<and> y < 0"
+  assumes "x < 0"
+    and "y < 0"
+    and "0 \<le> n"
     and "abs y = 6"
     and "sqrt ((x - 8)^2 + (y - 3)^2) = 15"
     and "sqrt (x^2 + y^2) = sqrt n"

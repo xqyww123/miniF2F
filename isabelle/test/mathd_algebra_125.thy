@@ -8,8 +8,10 @@ theory mathd_algebra_125
 begin
 
 theorem mathd_algebra_125:
-  fixes x y :: nat
-  assumes "5 * x = y"
+  fixes x y :: int
+  assumes "0 < x"
+    and "0 < y"
+    and "5 * x = y"
     and  "(x - 3) + (y - 3) = 30" 
   shows "x = 6"
   using assms by auto

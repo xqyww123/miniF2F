@@ -8,10 +8,10 @@ theory mathd_algebra_158
 begin
 
 theorem mathd_algebra_158:
-  fixes a :: nat
+  fixes a :: int
   assumes "even a"
-    and "(\<Sum> k < 8. (2 * k + 1)) - 
-            (\<Sum> k<5. (a + 2 * k)) = 4"
+    and "(\<Sum> k < 8. (2 * int k + 1)) - 
+            (\<Sum> k<5. (a + 2 * int k)) = 4"
   shows "a = 8"
   sorry
 

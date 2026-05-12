@@ -10,7 +10,7 @@ theorem amc12a_2020_p25:
   fixes a :: rat
   assumes 
         h1: "(\<Sum> k\<in>{x::real. (floor x) * (x - (floor x)) 
-            = a * x^2}. k) = 420" 
+            = real_of_rat a * x^2}. k) = (420::real)" 
     and h2: "quotient_of a = (a1,a2)"
   shows "a1 + a2 = 929"
   sorry

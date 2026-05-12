@@ -12,7 +12,7 @@ theorem aime_1999_p11:
   assumes "(\<Sum> k \<in>{0::nat..<36}. 
       sin (5 * k * pi / 180)) = tan (real_of_rat m * pi / 180)"
     and "quotient_of m = (nn,dd)"
-    and "nn/dd < 90"
+    and "nn/dd < (90::real)"
     and "0 < m"
   shows "dd+nn = 177"
   sorry

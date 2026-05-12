@@ -3,7 +3,7 @@
 *)
 
 theory amc12a_2020_p4
-  imports Complex_Main 
+  imports Complex_Main
 begin
 
 function digits :: "nat \<Rightarrow> nat list" where 

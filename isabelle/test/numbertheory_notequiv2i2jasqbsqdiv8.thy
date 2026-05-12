@@ -8,8 +8,7 @@ theory numbertheory_notequiv2i2jasqbsqdiv8 imports
 begin
 
 theorem numbertheory_notequiv2i2jasqbsqdiv8:
-  fixes a b :: int
-  shows "\<not> ((\<exists> i j. a = 2*i \<and> b=2*j) \<longleftrightarrow> (\<exists> k. a^2 + b^2 = 8*k))"
+  shows "\<not> (\<forall>a (b::int). ((\<exists> i j. a = 2*i \<and> b=2*j) \<longleftrightarrow> (\<exists> k. a^2 + b^2 = 8*k)))"
   sorry
 
 end

@@ -3,7 +3,7 @@
 *)
 
 theory amc12_2001_p21
-  imports Complex_Main 
+  imports Complex_Main MathBench_Prover.MathBench_Prover Minilang_Agent.Minilang_Agent
 begin
 
 theorem amc12_2001_p21:
