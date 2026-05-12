@@ -9,7 +9,7 @@ begin
 
 theorem mathd_algebra_139:
   fixes s :: "real \<Rightarrow> real \<Rightarrow> real"
-  assumes  "\<forall> x\<noteq>0. \<forall>y\<noteq>0. s x y = (1/y - 1/x) / (x-y)"
+  assumes "\<forall> x\<noteq>0. \<forall>y\<noteq>0. x \<noteq> y \<longrightarrow> s x y = (1/y - 1/x) / (x-y)"
   shows "s 3 11 = 1/33"
   using assms by auto
 

@@ -7,7 +7,7 @@ theory imo_2001_p6
 begin
 
 theorem imo_2001_p6:
-  fixes a b c d ::nat
+  fixes a b c d :: nat
   assumes "0 < a \<and> 0 < b \<and> 0 < c \<and> 0 < d"
     and "d < c"
     and "c < b"
@@ -17,4 +17,3 @@ theorem imo_2001_p6:
   sorry
 
 end
-    

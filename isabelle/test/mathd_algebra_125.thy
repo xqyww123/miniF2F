@@ -15,4 +15,4 @@ theorem mathd_algebra_125:
     and  "(x - 3) + (y - 3) = 30" 
   shows "x = 6"
   using assms by auto
-end   
+end

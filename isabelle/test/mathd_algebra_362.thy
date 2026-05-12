@@ -9,8 +9,9 @@ begin
 
 theorem mathd_algebra_362:
   fixes a b :: real
-  assumes "a^2 * b^3 = 32 / 27"
-    and "a / b^3 = 27 / 4" 
+  assumes "b \<noteq> 0"
+      and "a^2 * b^3 = 32 / 27"
+      and "a / b^3 = 27 / 4" 
   shows "a + b = 8 / 3"
   sorry
 
