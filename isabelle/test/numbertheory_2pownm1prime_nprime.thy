@@ -9,9 +9,8 @@ begin
 theorem numbertheory_2pownm1prime_nprime:
   fixes n ::nat
   assumes "0 < n"
-    and "prime (2^n - 1)" 
+    and "prime ((2::nat)^n - 1)" 
   shows "prime n"
   sorry
 
 end
-    

@@ -9,7 +9,7 @@ begin
 theorem mathd_numbertheory_457:
   fixes n :: nat
   assumes "0 < n"
-    and "80325 dvd (fact n)" 
+    and "(80325::nat) dvd (fact n)" 
   shows "17 \<le> n"
   sorry
 
